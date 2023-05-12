@@ -1,0 +1,41 @@
+.user-page {
+    width: 100%;
+    background-color: #1976d2;
+    display: flex;
+    height: 849px;
+}
+
+.contact-info {
+    width: 400px;
+    height: 600px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info__info-field {
+    margin-top: 10px;
+    color: white;
+    margin-left: 5px;
+}
+
+.contact-info__user-value {
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.news__title {
+    color: white;
+    margin: 20px auto 0px;
+    font-size: 32px;
+}
+
+.user-page__news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border: 5px #1976d2;
+    box-sizing: border-box;
+}
+
+.header__logo-picture {
+    width: 90px;
+    height: 90px;
+    margin-top: 2px;
+}
+
+.header__site-name {
+    font-size: 30px;
+    cursor: pointer;
+    color: #1976d2;
+    background-color: white;
+    border: 5px solid #1976d2;
+    border-radius: 50px;
+    padding: 5px;
+    width: 1000px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 310px;
+    border-color: #1976d2;
+}
+
+.logout-button {
+    border-radius: 20px;
+    color: white;
+    background-color:#1976d2;
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
